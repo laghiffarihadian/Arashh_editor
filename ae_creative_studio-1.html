@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#07111f">
+<meta name="description" content="AE Creative Studio — jasa editing video, desain grafis, dan konten promosi yang modern dan profesional.">
+<title>AE Creative Studio | Editing & Design</title>
+<style>
+:root{--bg:#070b12;--panel:#0e1725;--panel2:#111e30;--blue:#1d70ff;--cyan:#48c7ff;--text:#f4f7fb;--muted:#a5b2c5;--line:rgba(255,255,255,.11)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 80% 0%,#102b50 0,transparent 38%),var(--bg);color:var(--text);font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;line-height:1.6}a{color:inherit;text-decoration:none}.wrap{width:min(1120px,92%);margin:auto}
+nav{display:flex;align-items:center;justify-content:space-between;padding:22px 0;gap:18px}.brand{display:flex;align-items:center;gap:12px;font-weight:900;letter-spacing:.4px}.mark{display:grid;place-items:center;width:42px;height:42px;border:1px solid #4a9aff;border-radius:12px;background:linear-gradient(145deg,#182b46,#070b12);box-shadow:0 0 25px #1465ff35;font-size:15px;color:#fff}.brand small{display:block;color:var(--muted);font-weight:500;font-size:11px;letter-spacing:2px}.navlinks{display:flex;gap:24px;color:#c4d0e0;font-size:14px}.navlinks a:hover{color:var(--cyan)}.menu{display:none}
+.hero{display:grid;grid-template-columns:1.1fr .9fr;align-items:center;gap:44px;padding:70px 0 82px}.eyebrow{display:inline-flex;align-items:center;gap:9px;padding:7px 12px;border:1px solid #2876d955;border-radius:99px;background:#0c1a2b;color:#91caff;font-size:12px;font-weight:800;letter-spacing:1.2px;text-transform:uppercase}.dot{width:7px;height:7px;background:#48c7ff;border-radius:50%;box-shadow:0 0 12px #48c7ff}.hero h1{font-size:clamp(40px,6vw,72px);line-height:1.02;letter-spacing:-2.5px;margin:22px 0}.gradient{background:linear-gradient(90deg,#fff 10%,#78baff 60%,#3b91ff);-webkit-background-clip:text;background-clip:text;color:transparent}.hero p{max-width:570px;color:var(--muted);font-size:17px}.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;padding:13px 19px;border-radius:12px;font-weight:800;font-size:14px;border:1px solid var(--line);transition:.2s}.btn:hover{transform:translateY(-2px)}.primary{background:linear-gradient(120deg,#1764ed,#268cff);border-color:#4799ff;box-shadow:0 10px 30px #1764ed33}.secondary{background:#ffffff08}.note{font-size:12px!important;color:#8190a5!important;margin-top:15px}
+.visual{min-height:390px;position:relative;display:grid;place-items:center}.orb{position:absolute;width:300px;height:300px;border-radius:50%;background:radial-gradient(circle,#1b64c855,transparent 68%);filter:blur(12px)}.showcase{position:relative;width:min(100%,390px);padding:18px;border:1px solid #7bbaff45;border-radius:24px;background:linear-gradient(145deg,#172a42dd,#0b111cdd);box-shadow:0 28px 80px #0008,0 0 45px #126bff18;transform:rotate(2deg)}.screen{aspect-ratio:4/3;border-radius:16px;overflow:hidden;position:relative;background:linear-gradient(135deg,#122a48,#0b0f19 55%,#124f9b)}.screen:before{content:"";position:absolute;width:220px;height:220px;border:1px solid #65b7ff66;border-radius:50%;right:-30px;top:-30px;box-shadow:0 0 0 25px #ffffff08,0 0 0 50px #ffffff05}.screen:after{content:"AE";position:absolute;left:22px;bottom:22px;font-size:clamp(65px,10vw,100px);font-weight:1000;letter-spacing:-9px;line-height:1;text-shadow:4px 4px 0 #07111f,0 0 35px #49a5ff88}.play{position:absolute;z-index:1;left:50%;top:45%;transform:translate(-50%,-50%);width:54px;height:54px;border:1px solid #ffffff88;border-radius:50%;display:grid;place-items:center;background:#07111f77;backdrop-filter:blur(8px)}.play:after{content:"";margin-left:4px;border-left:12px solid white;border-top:8px solid transparent;border-bottom:8px solid transparent}.screen-label{position:absolute;left:20px;top:18px;font-size:10px;letter-spacing:2px;color:#b6d9ff}.mini-row{display:flex;justify-content:space-between;align-items:center;padding:15px 2px 2px;font-size:12px;color:#c5d5e8}.mini-row strong{font-size:14px;color:white}.floating{position:absolute;right:-10px;bottom:22px;padding:12px 15px;border:1px solid #55b2ff66;border-radius:14px;background:#0d1b2c;box-shadow:0 12px 32px #0006;font-size:12px}.floating b{display:block;color:#76c4ff;font-size:15px}
+section{padding:68px 0}.section-head{max-width:650px;margin-bottom:28px}.kicker{font-size:12px;letter-spacing:2px;text-transform:uppercase;color:#69baff;font-weight:900}.section-head h2{font-size:clamp(28px,4vw,42px);letter-spacing:-1px;line-height:1.12;margin:10px 0}.section-head p{color:var(--muted);margin:0}.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.service,.work,.step,.contact-box{border:1px solid var(--line);background:linear-gradient(145deg,#111c2b,#0b111b);border-radius:18px;padding:22px}.service .ico{display:grid;place-items:center;width:46px;height:46px;border-radius:13px;background:#1267d51f;border:1px solid #348bff45;color:#8ecbff;font-size:22px}.service h3{margin:16px 0 7px;font-size:18px}.service p{margin:0;color:var(--muted);font-size:14px}.taglist{display:flex;flex-wrap:wrap;gap:7px;margin-top:17px}.tag{font-size:11px;color:#b7d8ff;border:1px solid #438fe544;background:#10233a;padding:5px 9px;border-radius:99px}
+.portfolio{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.work{padding:12px;overflow:hidden}.thumb{aspect-ratio:4/3;border-radius:12px;display:flex;flex-direction:column;justify-content:space-between;padding:15px;position:relative;overflow:hidden}.thumb:after{content:"";position:absolute;width:180px;height:180px;border:1px solid #ffffff35;border-radius:50%;right:-30px;top:-30px;box-shadow:0 0 0 22px #ffffff08,0 0 0 44px #ffffff05}.thumb span,.thumb strong{position:relative;z-index:1}.thumb span{font-size:10px;letter-spacing:2px;color:#d9ebff}.thumb strong{font-size:27px;line-height:1.05;max-width:190px;letter-spacing:-1px}.t1{background:linear-gradient(135deg,#153b6d,#0b1220 65%,#227ee7)}.t2{background:linear-gradient(135deg,#422a62,#151226 60%,#e55c94)}.t3{background:linear-gradient(135deg,#16584c,#071b1c 65%,#a2db74)}.work h3{font-size:15px;margin:13px 5px 2px}.work p{font-size:12px;color:var(--muted);margin:0 5px 5px}.disclaimer{font-size:12px;color:#8d9bb0;margin-top:15px}
+.process{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.step .num{font-size:12px;font-weight:900;color:#6ebaff;letter-spacing:2px}.step h3{margin:9px 0 5px}.step p{font-size:14px;color:var(--muted);margin:0}
+.contact{display:grid;grid-template-columns:1fr 1fr;gap:25px;align-items:stretch}.contact-box h2{font-size:clamp(27px,4vw,40px);line-height:1.1;margin:12px 0}.contact-box p{color:var(--muted)}.contact-list{display:grid;gap:12px;margin-top:20px}.contact-item{display:flex;gap:12px;align-items:center;color:#d8e7f8;font-size:14px}.contact-item i{font-style:normal;display:grid;place-items:center;width:36px;height:36px;border-radius:10px;background:#ffffff09;border:1px solid var(--line)}.form{display:grid;gap:12px}.form label{font-size:12px;color:#b9c7d9}.form input,.form select,.form textarea{width:100%;margin-top:6px;background:#080e17;color:#fff;border:1px solid #29384c;border-radius:10px;padding:12px 13px;font:inherit;outline:none}.form input:focus,.form select:focus,.form textarea:focus{border-color:#398dff}.form textarea{min-height:90px;resize:vertical}.form button{cursor:pointer;width:100%}
+footer{border-top:1px solid var(--line);padding:23px 0;color:#8f9db1;font-size:12px}.foot{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+@media(max-width:780px){.navlinks{display:none}.menu{display:inline-flex}.hero{grid-template-columns:1fr;padding:46px 0 55px;gap:18px}.visual{min-height:330px}.showcase{width:min(92%,390px)}.grid3,.portfolio,.process{grid-template-columns:1fr}.contact{grid-template-columns:1fr}section{padding:50px 0}.hero h1{letter-spacing:-1.5px}.floating{right:0}.section-head{margin-bottom:22px}}
+</style>
+</head>
+<body>
+<header class="wrap">
+<nav>
+  <a class="brand" href="#home" aria-label="AE Creative Studio">
+    <span class="mark">AE</span><span>AE CREATIVE STUDIO<small>EDITING · DESIGN · PROMO</small></span>
+  </a>
+  <div class="navlinks"><a href="#layanan">Layanan</a><a href="#portofolio">Portofolio</a><a href="#proses">Cara Kerja</a><a href="#kontak">Kontak</a></div>
+  <a class="btn secondary menu" href="#kontak">Hubungi ↗</a>
+</nav>
+</header>
+<main>
+<div class="wrap hero" id="home">
+  <div>
+    <div class="eyebrow"><span class="dot"></span> CREATIVE SERVICE FOR YOUR BRAND</div>
+    <h1>Bikin kontenmu <span class="gradient">lebih menonjol.</span></h1>
+    <p>Jasa editing video dan desain grafis untuk kreator, bisnis, organisasi, serta personal brand. Visual yang rapi, modern, dan sesuai karakter brand kamu.</p>
+    <div class="actions"><a class="btn primary" href="#kontak">✦ Pesan Jasa Sekarang</a><a class="btn secondary" href="#portofolio">Lihat Portofolio ↓</a></div>
+    <p class="note">Responsif untuk HP dan desktop · Konsultasi kebutuhan sebelum mulai</p>
+  </div>
+  <div class="visual" aria-label="Pratinjau desain AE Creative Studio">
+    <div class="orb"></div><div class="showcase"><div class="screen"><span class="screen-label">CREATIVE / VISUAL / IMPACT</span><span class="play"></span></div><div class="mini-row"><span><strong>AE Creative</strong><br>Make ideas visible.</span><span>VIDEO + DESIGN ↗</span></div></div>
+    <div class="floating"><b>EDIT · DESIGN</b>Konten dengan karakter</div>
+  </div>
+</div>
+
+<section id="layanan"><div class="wrap">
+  <div class="section-head"><div class="kicker">Yang bisa dibantu</div><h2>Satu tempat untuk kebutuhan kreatifmu.</h2><p>Pilih layanan sesuai kebutuhan. Detail hasil, durasi, dan harga bisa disesuaikan setelah brief.</p></div>
+  <div class="grid3">
+    <article class="service"><div class="ico">▶</div><h3>Editing Video</h3><p>Video pendek yang dinamis untuk media sosial, konten edukasi, highlight acara, dan promosi produk.</p><div class="taglist"><span class="tag">Reels / Shorts</span><span class="tag">Subtitle</span><span class="tag">Cut & pacing</span></div></article>
+    <article class="service"><div class="ico">✳</div><h3>Desain Grafis</h3><p>Visual yang konsisten dan menarik untuk kebutuhan digital, komunitas, acara, maupun personal brand.</p><div class="taglist"><span class="tag">Poster</span><span class="tag">Logo konsep</span><span class="tag">Feed sosial</span></div></article>
+    <article class="service"><div class="ico">↗</div><h3>Konten Promosi</h3><p>Materi promosi produk atau jasa dengan pesan yang jelas dan tampilan yang membantu menarik perhatian.</p><div class="taglist"><span class="tag">Iklan pendek</span><span class="tag">Konten produk</span><span class="tag">Branding</span></div></article>
+  </div>
+</div></section>
+
+<section id="portofolio"><div class="wrap">
+  <div class="section-head"><div class="kicker">Pilihan karya</div><h2>Portofolio yang bercerita.</h2><p>Ganti contoh visual di bawah dengan hasil karya asli milikmu agar calon klien bisa melihat kemampuanmu.</p></div>
+  <div class="portfolio">
+    <article class="work"><div class="thumb t1"><span>01 / VIDEO EDITING</span><strong>STORY IN MOTION</strong></div><h3>Video pendek & highlight</h3><p>Cutting, ritme, subtitle, dan sentuhan visual.</p></article>
+    <article class="work"><div class="thumb t2"><span>02 / GRAPHIC DESIGN</span><strong>DESIGN WITH CHARACTER</strong></div><h3>Poster & desain sosial media</h3><p>Komposisi, tipografi, dan visual yang konsisten.</p></article>
+    <article class="work"><div class="thumb t3"><span>03 / PRODUCT PROMO</span><strong>MAKE IT STAND OUT</strong></div><h3>Konten promosi produk</h3><p>Materi promosi dengan pesan yang jelas.</p></article>
+  </div>
+  <p class="disclaimer">Catatan: ini adalah mockup contoh, bukan klaim hasil proyek klien. Tambahkan gambar atau video asli saat sudah siap.</p>
+</div></section>
+
+<section id="proses"><div class="wrap">
+  <div class="section-head"><div class="kicker">Cara kerja</div><h2>Jelas dari brief sampai selesai.</h2></div>
+  <div class="process">
+    <article class="step"><div class="num">STEP 01</div><h3>Ceritakan kebutuhan</h3><p>Kirim jenis konten, tujuan, referensi gaya, format, dan tenggat yang diinginkan.</p></article>
+    <article class="step"><div class="num">STEP 02</div><h3>Sepakati konsep</h3><p>Kita cocokkan ruang lingkup, harga, bahan yang diperlukan, serta waktu pengerjaan.</p></article>
+    <article class="step"><div class="num">STEP 03</div><h3>Produksi & revisi</h3><p>Konten dikerjakan sesuai kesepakatan, lalu ditinjau dan disesuaikan berdasarkan revisi yang disepakati.</p></article>
+  </div>
+</div></section>
+
+<section id="kontak"><div class="wrap contact">
+  <div class="contact-box"><div class="kicker">Mari mulai proyekmu</div><h2>Punya ide? Kita wujudkan jadi visual.</h2><p>Isi brief singkat di samping untuk menyiapkan pesan pesanan. Kamu bisa mengirimnya lewat WhatsApp setelah nomor kontak dipasang.</p>
+    <div class="contact-list"><div class="contact-item"><i>✉</i><span>Diskusi kebutuhan & konsep</span></div><div class="contact-item"><i>◷</i><span>Waktu pengerjaan disepakati di awal</span></div><div class="contact-item"><i>◇</i><span>Editing video · Desain · Promosi</span></div></div>
+  </div>
+  <div class="contact-box">
+    <form class="form" id="orderForm">
+      <label>Nama<input id="nama" name="nama" placeholder="Nama kamu" required></label>
+      <label>Layanan yang dibutuhkan<select id="layananPilihan" name="layanan"><option>Editing video</option><option>Desain grafis</option><option>Konten promosi</option><option>Paket editing + desain</option></select></label>
+      <label>Detail kebutuhan<textarea id="detail" name="detail" placeholder="Contoh: video Reels 30 detik, ada subtitle, deadline Jumat..." required></textarea></label>
+      <button class="btn primary" type="submit">Siapkan Pesan WhatsApp ↗</button>
+      <p class="note">Sebelum digunakan, ganti nomor WhatsApp pada kode website dengan nomor bisnismu.</p>
+    </form>
+  </div>
+</div></section>
+</main>
+<footer><div class="wrap foot"><span>© <span id="year"></span> AE Creative Studio. Dibuat dengan kreativitas.</span><span>EDITING · DESIGN · PROMOTION</span></div></footer>
+<script>
+document.getElementById('year').textContent = new Date().getFullYear();
+document.getElementById('orderForm').addEventListener('submit', function(e){
+  e.preventDefault();
+  const phone = '6285722213386'; // Nomor WhatsApp AE Creative Studio
+  const nama = document.getElementById('nama').value.trim();
+  const layanan = document.getElementById('layananPilihan').value;
+  const detail = document.getElementById('detail').value.trim();
+  const message = `Halo, saya ${nama}. Saya ingin bertanya tentang jasa ${layanan}.\nDetail kebutuhan: ${detail}`;
+  window.open(`https://wa.me/${phone}?text=${encodeURIComponent(message)}`, '_blank', 'noopener');
+});
+</script>
+</body>
+</html>
